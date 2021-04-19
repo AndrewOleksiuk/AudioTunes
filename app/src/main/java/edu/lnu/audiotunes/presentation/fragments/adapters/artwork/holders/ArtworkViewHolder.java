@@ -1,4 +1,4 @@
-package com.itunesloader.presentation.fragments.adapters.artwork.holders;
+package  edu.lnu.audiotunes.presentation.fragments.adapters.artwork.holders;
 
 import android.view.View;
 import android.widget.ImageView;
@@ -11,8 +11,9 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 import com.like.LikeButton;
 import com.like.OnLikeListener;
-import com.itunesloader.R;
-import com.itunesloader.presentation.base.models.IArtworkModel;
+import  edu.lnu.audiotunes.R;
+
+import edu.lnu.audiotunes.presentation.base.models.IArtworkModel;
 
 public class ArtworkViewHolder<M extends IArtworkModel> extends RecyclerView.ViewHolder {
     private TextView artistName;
